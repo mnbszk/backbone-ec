@@ -1,0 +1,54 @@
+body {
+    font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #34495e;
+    background-color: #fff;
+    margin: 0;
+}
+
+button+button {
+    margin-left: .3rem;
+}
+
+.card .card-header h3.card-heading {
+    margin-bottom: 0;
+}
+
+table.table {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+table th {
+    text-align: center;
+}
+
+.num {
+    text-align: right;
+}
+
+th.actions, td.actions {
+    width: 180px;
+    text-align: center;
+}
+
+th>a {
+    float: right;
+    color: #ccc;
+}
+th>a>i.active {
+    color: #333;
+}
+
+table tbody tr {
+    cursor: pointer;
+}
+table tbody td.actions {
+    cursor: default;
+}
+table td.actions button {
+    padding: .2rem .25rem;
+    font-size: .8rem;
+}
